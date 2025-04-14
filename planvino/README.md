@@ -1,50 +1,100 @@
-# Welcome to your Expo app 👋
+# PlanVino - Vineyard Management App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+PlanVino is a comprehensive mobile application designed to help winegrowers manage their vineyard operations efficiently. The app provides tools for task management, calendar organization, and collaboration with other winegrowers.
 
-## Get started
+## Features
 
-1. Install dependencies
+### 📅 Calendar Management
+- Weekly task view with color-coded modules
+- Add, edit, and delete tasks
+- Share tasks with other winegrowers
+- Copy tasks from other users
+- Module-based organization (vineyard, cellar, marketing)
 
-   ```bash
-   npm install
-   ```
+### ⚙️ Settings & Preferences
+- Profile management
+- Module preferences
+- Notification settings (email, WhatsApp, push)
+- Privacy controls
 
-2. Start the app
+### 👤 User Management
+- Email/phone registration
+- Google account integration
+- Vineyard information setup
+- Friend connections
 
-   ```bash
-    npx expo start
-   ```
+## Getting Started
 
-In the output, you'll find options to open the app in a
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+- Expo CLI
+- iOS Simulator (for Mac) or Android Studio (for Android development)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Installation
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+1. Clone the repository:
 ```bash
-npm run reset-project
+git clone https://github.com/yourusername/planvino.git
+cd planvino
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
 
-## Learn more
+3. Start the development server:
+```bash
+npm start
+# or
+yarn start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+4. Run on your preferred platform:
+- Press `i` for iOS simulator
+- Press `a` for Android emulator
+- Scan QR code with Expo Go app for physical device
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Project Structure
 
-## Join the community
+```
+planvino/
+├── src/
+│   ├── components/      # Reusable UI components
+│   ├── screens/         # Main app screens
+│   ├── navigation/      # Navigation configuration
+│   ├── services/        # API and other services
+│   ├── types/          # TypeScript type definitions
+│   └── utils/          # Helper functions
+├── assets/             # Images and other static assets
+└── App.tsx            # Root component
+```
 
-Join our community of developers creating universal apps.
+## Technology Stack
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- React Native
+- Expo
+- TypeScript
+- React Navigation
+- React Native Paper
+- React Native Calendars
+- Date-fns
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Support
+
+For support, email support@planvino.com or join our Slack channel. 
